@@ -1,0 +1,25 @@
+<div>
+  <h1><%=page.category%></h1>
+  <h3>
+  <table id="text4">
+      <tbody>
+        <% page.posts.each(article => { %>
+          <tr>
+              <td>
+                <a style="color: #000" href="<%=url_for(article.path)%>">
+                  <%=article.title%>&nbsp;
+                </a>
+
+              </td>
+              <td>
+                <time datetime="<%=date_xml(article.date)%>">
+                  &nbsp;&nbsp;<%=date(article.date)%>
+                </time>  
+              </td> 
+          </tr>
+        <% }); %>
+      </tbody>
+  </table>
+</h3>
+</div>
+

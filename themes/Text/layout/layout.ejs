@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Text</title>
+    <!-- 导入css -->
+    <link rel="stylesheet" href="<%= config.root %>style.css"/>
+  </head>
+  <body>
+
+  <div id="page-container">
+    <%-partial('partials/head')%>
+    <div id="content-wrap">
+        <div class="container">
+          <%- body %>
+        </div>
+    </div>
+    <%-partial('partials/footer')%>
+  </div>
+  <%- js('/jquery.min.js')%>
+  <%- js('/main.js')%>
+  </body>
+</html>
