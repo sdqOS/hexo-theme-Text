@@ -1,0 +1,305 @@
+/* wenzhang=文章 */
+/* pai = 排 */
+/* kong = 空 */
+/* jiao = 脚 */
+
+/* 主页框框 */
+#content-wrap > div  {
+    margin: 0 auto;
+}
+
+/* 框框位置 */
+#content-wrap > div > div > p{
+    display: flex;    
+    width: 100%; 
+    height: 100%;
+    justify-content: space-around;
+}
+
+.Text>a{
+    color:#000;
+    font-size: 20px;
+}
+
+.pai {
+    display: flex;    
+    width: 100%;
+    justify-content: space-around;
+    font-size: 25px;
+    margin: 30px 30px 40px 0px;
+}
+
+a > span {
+    color:#000;
+}
+
+strong > a {
+    color:#000;
+}
+
+h1,h2,h3,h4,h5 > a{
+    color:#000;
+}
+
+h1>a, h2>a, h3>a, h4>a {
+    color:#000;
+}
+
+.category-list-item>.category-list-link{
+    color:#000;
+}
+
+
+.kong{
+    color:#000;
+    margin: 0px 0px 0px 0px;
+}
+
+.box{
+    border-style:solid;
+    border-width:medium;
+}
+
+/* 换页 */
+
+/* .jiao{
+    color:#000;
+    margin: 0px 0px 0px 0px;
+} */
+
+.konga {
+        display: flex;    
+        width: 100%;
+        justify-content: space-around;
+        margin: 5% 0px 0px 0px;
+        color:#000;
+}
+
+#content-wrap > div > div > h1{
+    display: flex;    
+    width: 100%;
+    justify-content: space-around;
+    font-size: 25px;
+    /* margin: 30px 30px 40px 0px; */
+}
+#content-wrap > div > div > h3{
+    display: flex;    
+    width: 100%;
+    justify-content: space-around;
+    font-size: 25px;
+
+}
+
+img{
+    width: 100%;  
+}
+
+/* 日期框框 */
+.bx{
+    border-style:solid;
+    border-width:medium;
+    font-size: 1px;
+    font-weight: bold;
+    color:#000;
+}
+
+p > a{
+     color:#000;
+}
+
+
+/* 文章布局 */
+.wenzhang-container {
+    margin: auto;
+    max-width: 960px;
+    padding: 16px 16px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.6;
+    font-size: larger;
+}
+
+/* 表格 */
+#content-wrap > div > div > wenzhang > table > tbody > tr > td{
+    border: 1px solid;
+    border-spacing: 2px;
+    border-color: #000;
+}
+
+/* 分类中间对其 */
+#content-wrap > div > span > h2 > ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#content-wrap > div > span > h2 > ul > li{
+    /* 阴影 */
+    box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
+    /* margin-bottom: 1.6rem; */
+    /* border-style:solid; */
+    /* color:#000; */
+    /* overflow-wrap: break-word; */
+    /* word-break: break-word; */
+    font-size: larger;
+    /* 长度 */
+    margin-bottom: 1.6rem;
+    /* 边框 */
+    border: 2px solid #000000;
+    padding: 10px 10px 10px 10px;
+    background: #fffefe;
+    border-radius: 10px;
+
+    border-style:solid;
+    border-width:medium;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* 关于框框 */
+#text1{
+    border-spacing: 2px;
+    border: 3px solid;
+    background: #fffefe;
+    border-color: #000;
+    border-radius: 10px;
+    padding: 30px;
+
+
+}
+/* 框框文字 */
+#text2{
+    margin: 0 auto;
+    text-align: center;
+    font-weight:900;
+    font-size: 2rem;;
+}
+/* 分类框框 */
+#text3{
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* 分页字体 */
+#text4{
+    /* font-size: 75%;
+    margin: 10px 10px 10px 10px; */
+        /* 阴影 */
+        display: flex;   
+        justify-content: center;
+        box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
+        /* margin-bottom: 1.6rem; */
+        /* border-style:solid; */
+        /* color:#000; */
+        /* overflow-wrap: break-word; */
+        /* word-break: break-word; */
+        font-size: larger;
+        /* 长度 */
+        margin-bottom: 1.6rem;
+        /* 边框 */
+        border: 2px solid #000000;
+        padding: 10px 10px 10px 10px;
+        background: #fffefe;
+        border-radius: 10px;
+    
+        border-style:solid;
+        border-width:medium;
+        display: inline-block;
+        margin: 10px 10px 10px 10px;
+        text-decoration: none;
+        color: #000;
+}
+
+/* 搜索 */
+/* 换页 */
+#text_input, .jiao {
+    /* 边框 */
+    border: 3px solid #000000;
+    background: #fffefe;
+    border-radius: 10px;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    display:flex;
+      
+}
+
+#footer > span > a{
+  font-size: 2.1875rem;  
+}
+
+/* 输出 */
+#text_output{
+    text-align: center;
+}
+
+#text_output > div > div{
+    border: 2px solid #000000;
+    color: #000;
+    font-size:25px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 1px 1px 1px 1px;
+}
+
+
+/* 框框位置上下位置 */
+.box:not(:last-child){
+    margin-bottom: 1.6rem;
+}
+
+body {
+    color: #4a4a4a;
+    font-size: 1em;
+    font-weight: 500px;
+    line-height: 1.5
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none
+}
+
+
+.box {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem
+}
+
+/* 框框宽度 */
+
+@media screen and (min-width:84.0625rem) {
+    .container {
+        max-width: 84.0625rem;
+    }
+}
+
+
+/* 代码框背景颜色 */
+
+/* #content-wrap > div > div > wenzhang > figure{
+    background-color: rgb(249, 249, 249);
+
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
