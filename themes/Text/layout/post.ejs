@@ -1,16 +1,16 @@
 <!-- 点击文章 -->
-<div class="wenzhang-container">
-  <h1 class="title is-3 is-4-mobile"><%-page.title%></h1>
+<div>
+  <h1><%-page.title%></h1>
   <wenzhang>
       <div class="contents">
         <%- toc(page.content, {list_number:false}) %>
       </div>
       <%-page.content%>
       <div id="lv-container" data-id="city" data-uid="MTAyMC80NTk3NS8yMjQ4Ng==">
+  <!-- 评论系统 -->
   <script type="text/javascript">
      (function(d, s) {
          var j, e = d.getElementsByTagName(s)[0];
-  
          if (typeof LivereTower === 'function') { return; }
   
          j = d.createElement(s);
@@ -20,9 +20,8 @@
          e.parentNode.insertBefore(j, e);
      })(document, 'script');
   </script>
-  <noscript>Please activate JavaScript for write a comment in LiveRe</noscript>
   </div>
-      <!-- 博客链接 -->
+      <!-- 博客版权 -->
       <p class="copyright"><strong>
         作者: 我叫史迪奇
         <br>
