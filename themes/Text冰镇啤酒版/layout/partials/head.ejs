@@ -1,0 +1,18 @@
+<header id="toggleMenu">
+	<nav>
+		<a href="<%= config.root %>" class="logo">Text</a>
+		<ul class="navigation">
+			<li>    <a class="kong" href="<%= config.root %>archives"> 分类 </a></li>
+			<li>    <a class="kong" href="<%= config.root %>about"> 关于 </a></li>
+		</ul>
+		<div class="toggle"></div>
+    </nav>
+    	<!-- <div class="glass"></div> -->
+	<div class="Summer">
+		<h1>欢迎来到这个夏天<br><span>Welcome to clear ocean water, To clear ocean water.</span></h1>
+    </div>
+    <ul class="sci">
+		<li><a href="<%= page.next_link ? config.root + page.prev_link : '.'%>">last page</a></li>
+		<li><a href="<%= page.next_link ? config.root + page.next_link : '.'%>">next page</a></li>
+	</ul>
+</header>

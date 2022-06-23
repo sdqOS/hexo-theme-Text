@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Text</title>
+    <!-- 导入css -->
+    <link rel="stylesheet" href="<%= config.root %>style.css"/>
+    <link rel="stylesheet" href="/Summer/bg.css">
+    <link rel="stylesheet" href="/Summer/Glass.css">
+     <!-- 代码高亮  -->
+     <!-- <link href="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.1.0/styles/paraiso-light.min.css" rel="stylesheet"> -->
+     <link rel="stylesheet" href="/paraiso-light.min.css">
+  </head>
+  <body>
+
+  <div id="page-container">
+    <%-partial('partials/head')%>
+    <div id="content-wrap">
+        <div class="container">
+          <%- body %>
+        </div>
+    </div>
+    <%-partial('partials/footer')%>
+  </div>
+  <%- js('/jquery.min.js')%>
+  <%- js('/main.js')%>
+  <script src="/Summer/bg.js"></script>
+<!-- <script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script> -->
+<script src="/highlight.min.js"></script>
+  </body>
+</html>

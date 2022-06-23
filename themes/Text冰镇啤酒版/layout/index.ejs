@@ -1,0 +1,23 @@
+<body>
+
+<% if (page.posts.length > 0) { %>
+  <% page.posts.sort('date',-1).limit(10).each(post => { %>
+    <div class="Glass">
+      <div class="box">
+        <wenzhang>
+            <div class="media-content">
+                <div>
+                  <div class="Text">
+                    <a href="<%=url_for(post.path)%>"><%= post.title !== '' ? post.title : ' ' %></a></div>
+                    <% post.tags.forEach(function(tag) { %>
+                      <a class="bx" href='<%= config.root %>tags/<%= tag.name.trim().replace(/\s|\./g, '-') %>'><%= tag.name %></a>
+                    <% }); %>
+                    <a class="bx" href="<%= config.root %>archives/<%= date(post.date).split('-').slice(0,2).join('/') %>"><%=date(post.date)%></a>
+                </div>
+            </div>
+        </wenzhang>
+    </div>
+    </div>
+<% }); %> <% } %>
+</body>
+
