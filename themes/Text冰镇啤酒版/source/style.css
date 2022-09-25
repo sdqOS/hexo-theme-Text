@@ -379,7 +379,6 @@ svg[Attributes Style] {
     width: 24;
     height: 24;
 }
-user agent stylesheet
 svg:not(:root) {
     overflow: hidden;
 }
@@ -396,7 +395,7 @@ svg:not(:root) {
 }
 /* 评论二字 */
 #waline > div > div.wl-meta-head > div{
-    color: rgb(255, 255, 255)  !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 [data-waline] a {
@@ -407,20 +406,20 @@ svg:not(:root) {
 }
 
 .wl-card .wl-time {
-    color: rgb(255, 255, 255)  !important;
+    color: rgb(255, 255, 255) !important;
 }
 /* 名字 */
 [data-waline] p {
-    color: rgb(255, 255, 255)  !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .wl-card .wl-meta>span {
-    color: rgb(255, 255, 255)  !important;
+    color: rgb(255, 255, 255) !important;
 
 }
 /* 点赞颜色 */
 .wl-card .wl-delete, .wl-card .wl-like, .wl-card .wl-reply, .wl-card .wl-edit {
-    color: rgb(255, 255, 255)  !important;
+    color: rgb(255, 255, 255) !important;
 }
 /* 正序 倒序 */
 .wl-sort li {
@@ -433,19 +432,12 @@ svg:not(:root) {
 
 /* 毛玻璃评论 */
 #waline > div > div.wl-comment > div{
-    position: relative  !important;
-    z-index: 1  !important;
-    backdrop-filter: blur(25px)  !important;
-    border: 1px solid rgba(255,255,255,.5)  !important;
+    position: relative !important;
+    z-index: 1 !important;
+    backdrop-filter: blur(25px) !important;
+    border: 1px solid rgba(255,255,255,.5) !important;
 }
-/* #waline > div > div.wl-comment{
-    display:flex  !important;
-    align-items: center  !important;
-    justify-content: center  !important;
 
-
-
-} */
 
 
 
