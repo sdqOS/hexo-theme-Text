@@ -302,9 +302,9 @@ a {
 
 /* 框框宽度 */
 
-@media screen and (min-width:84.0625rem) {
+@media screen and (min-width:64.0625rem) {
     .container {
-        max-width: 84.0625rem;
+        max-width: 64.0625rem;
     }
 }
 
@@ -317,126 +317,18 @@ a {
 
 } */
 
-
-/* 评论系统 */
-#waline > div > div.wl-comment > div > div.wl-footer > div.wl-info > button{
-    outline: none;
-    border-width:0;
+/* 屏蔽来必力广告 */
+#trc_wrapper_52443{
+    display: none !important;
 }
 
-#waline > div > div.wl-power {
-    background-color: rgba(0,0,0,0) !important;
-    color:rgba(0,0,0,0) !important;
-    text-decoration: none !important;
+#trc_header_56062 > span{
+    display: none !important;
+}
+#taboola-livere > div{
+    display: none !important;
 }
 
-.wl-btn.primary {
-    border-color: rgba(0,0,0,0) !important;
-    background: rgba(0,0,0,0) !important;
-    color: rgb(0, 0, 0) !important;
-}
-
-.wl-panel {
-    position: relative;
-    flex-shrink: 1;
-    width: 100%;
-    margin: 0.5em;
-    border: var(--waline-border);
-    border-radius: 0.75em;
-    background: var(--waline-bgcolor);
-    box-shadow: var(--waline-box-shadow);
-}
-
-/* 字体颜色 */
-#waline > div > div.wl-comment > div > div.wl-footer > div.wl-info > button{
-    color: rgb(255, 255, 255) !important;
-}
-
-:root {
-    --waline-bgcolor: rgba(0,0,0,0) !important;
-    --waline-info-color: rgba(0,0,0,0) !important;
-    --waline-bgcolor-light: rgba(0,0,0,0) !important;
-    --waline-border-color: rgba(0,0,0,0) !important;
-}
-/* 昵称 网站 */
-.wl-header label{
-    color: rgb(255, 255, 255) !important; 
-}
-
-element.style {
-}
-[data-waline] * {
-    box-sizing: content-box;
-    line-height: 1.75;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Poppins,sans-serif;
-}
-svg[Attributes Style] {
-    width: 24;
-    height: 24;
-}
-svg:not(:root) {
-    overflow: hidden;
-}
-.wl-action:hover {
-    color: var(--waline-theme-color);
-}
-/* 图标 */
-.wl-action {
-    color: rgb(255, 255, 255) !important; 
-}
-/* 地区 浏览器 系统 背景 */
-.wl-card .wl-meta>span {
-    background: rgba(0,0,0,0) !important;
-}
-/* 评论二字 */
-#waline > div > div.wl-meta-head > div{
-    color: rgb(255, 255, 255) !important;
-}
-
-[data-waline] a {
-    color: rgb(255, 255, 255) !important;
-}
-#waline > div > div.wl-power > a{
-    color: rgba(0,0,0,0) !important; 
-}
-
-.wl-card .wl-time {
-    color: rgb(255, 255, 255) !important;
-}
-/* 名字 */
-[data-waline] p {
-    color: rgb(255, 255, 255) !important;
-}
-
-.wl-card .wl-meta>span {
-    color: rgb(255, 255, 255) !important;
-
-}
-/* 点赞颜色 */
-.wl-card .wl-delete, .wl-card .wl-like, .wl-card .wl-reply, .wl-card .wl-edit {
-    color: rgb(255, 255, 255) !important;
-}
-/* 正序 倒序 */
-.wl-sort li {
-    color: rgb(255, 255, 255) !important;
-}
-
-#wl-edit{
-    color: rgb(255, 255, 255) !important;
-}
-
-/* 毛玻璃评论 */
-#waline > div > div.wl-comment > div{
-    position: relative !important;
-    z-index: 1 !important;
-    backdrop-filter: blur(25px) !important;
-    border: 1px solid rgba(255,255,255,.5) !important;
-}
 
 
 

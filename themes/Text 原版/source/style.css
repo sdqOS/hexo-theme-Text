@@ -276,9 +276,9 @@ a {
 
 /* 框框宽度 */
 
-@media screen and (min-width:84.0625rem) {
+@media screen and (min-width:64.0625rem) {
     .container {
-        max-width: 84.0625rem;
+        max-width: 64.0625rem;
     }
 }
 
@@ -291,6 +291,80 @@ a {
 
 } */
 
+/* 文章分类 */
+#content-wrap > div > div > ul > li > a{
+    border-style:solid;
+    border-width:medium;
+    -webkit-text-stroke: 0.3px !important;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+    margin: 1rem;
+}
+
+/* 文章分类文字加深 */
+#content-wrap > div > div > ul > li > a{
+    color: #000;
+    font-size: 20px;
+}
+
+/* 文章时间 */
+#content-wrap > div > div > wenzhang > div > div > a{
+    padding: 1px !important;
+    margin-bottom: 4px !important;
+    border-radius: 4px;
+}
+
+
+
+
+
+/* 关于的框框 */
+#content-wrap > div > div > wenzhang > kuankuan {
+    border-style:solid;
+    border-width:medium;
+    background-color: #ffffff;
+    border-radius: 6px;
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+} 
+
+/* 博客版权 */
+
+body > bokebangquan,#content-wrap > bokebangquan > p{
+    background-color: #ffffff;
+    color: #4a4a4a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#content-wrap > div > div > wenzhang > figure > table{
+    border-style:solid;
+    border-width:medium;
+    background-color: #ffffff;
+    border-radius: 6px;
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+}
+
+/* 屏蔽来必力广告 */
+#trc_wrapper_52443{
+    display: none !important;
+}
+
+#trc_header_56062 > span{
+    display: none !important;
+}
+#taboola-livere > div{
+    display: none !important;
+}
 
 
 

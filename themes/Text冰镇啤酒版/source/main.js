@@ -83,7 +83,7 @@ function LoadSearch(){
                             <div class="el-card__header" >
                                 <div class="clearfix" > 
                                     <span>${data_title}</span>
-                                        <span><a style="color: rgb(255, 255, 255)" href="${window.location.origin}${data_url}">🧊</a></span>
+                                        <span><a style="color: rgb(255, 255, 255)" href="${window.location.origin}${data_url}">√</a></span>
                                 </div>
                             </div>
                             
@@ -151,4 +151,3 @@ window.onload = function()
 {
     LoadSearch();
 }
-
