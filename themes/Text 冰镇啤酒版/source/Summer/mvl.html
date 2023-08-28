@@ -1,0 +1,172 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Glass.css">
+</head>
+<body>
+   <main>hhh</main> 
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>毛玻璃登录界面</title>
+    <style>
+      /* * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+      } */
+      /* body {
+        background: rgb(238, 174, 202);
+      } */
+
+      /* 框框 */
+      /* .glass {
+        backdrop-filter: blur(10px);
+        border: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.6);
+        border-left: 1px solid rgba(255, 255, 255, 0.6);
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.05);
+      } */
+      /* .login-wallpaper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      } */
+      .login-form {
+        position: relative;
+        padding: 60px 30px 5px;
+        width: 200px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.01) inset,
+          10px 10px 30px rgba(255, 255, 255, 0.1) inset,
+          5px 5px 20px rgba(0, 0, 0, 0.05);
+      }
+      .login-form-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 16px;
+      }
+      .login-form-row input {
+        padding: 0 10px;
+        height: 32px;
+        flex: 1;
+        background: none;
+        border-radius: 16px;
+        color: #fff;
+        outline: none;
+      }
+      .login-form-row input::-webkit-input-placeholder {
+        color: #fff;
+      }
+      .login-form-btn {
+        margin: 10px auto;
+        width: 80px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 12px;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        border-radius: 16px;
+        background: rgb(82, 116, 189);
+      }
+      /* .login-floating {
+        position: absolute;
+        border-radius: 100%;
+      } */
+      /* .login-floating:nth-child(1) {
+        background: rgb(253, 200, 100);
+        top: 150px;
+        left: -55px;
+        animation: move 10s infinite ease-in-out;
+      } */
+      /* .login-floating:nth-child(2) {
+        background: rgb(160, 201, 247);
+        top: -20px;
+        left: 180px;
+        z-index: 3;
+        animation: move2 4s infinite ease-in;
+        animation-delay: 0.3s;
+      } */
+      /* .login-floating:nth-child(3) {
+        background: rgb(247, 160, 233);
+        top: 170px;
+        left: 190px;
+        animation: zoom 1.5s infinite ease-in;
+        animation-delay: 0.6s;
+      } */
+      /* .small {
+        width: 40px;
+        height: 40px;
+      }
+      .middle {
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+      }
+      .lg {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%; */
+      /* }
+      @keyframes move {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-180px);
+        }
+      } */
+      /* @keyframes move2 {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-30px);
+        }
+      }
+      @keyframes zoom {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(0.9);
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="login-wallpaper">
+      <div class="login-floating glass middle"></div>
+      <div class="login-floating glass small"></div>
+      <div class="login-floating glass lg"></div>
+      <div class="login-form glass">
+        <div class="login-form-row">
+          <input class="glass" type="text" placeholder="请输入账号" />
+        </div>
+        <div class="login-form-row">
+          <input class="glass" type="password" placeholder="请输入密码" />
+        </div>
+        <div class="login-form-row">
+          <button class="glass login-form-btn">登录</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

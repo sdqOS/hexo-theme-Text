@@ -1,0 +1,3 @@
+# 安装hexo-generator-searchdb插件
+
+npm install hexo-generator-searchdb --save
